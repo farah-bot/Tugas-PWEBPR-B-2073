@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio - Farah Fairuz</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body  id="top">
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">My Portofolio</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <button
+              id="theme-toggle"
+              class="btn btn-primary"
+            ><ion-icon name="sunny-outline"></ion-icon>
+            </button>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+
+        <div class="container">
+
+          <div class="hero-banner">
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" class="img-cover">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hi I'm</span>
+              <strong>Farah Fairuz</strong> Information Technology Student at University of Jember
+            </h2>
+
+            <div class="btn-group">
+              <a href="#about" class="btn btn-primary blue">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" class="img-cover">
+
+            <img src="./assets/images/about-me.jpg" width="800" height="717" loading="lazy" class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+                <ion-icon name="brush-outline"></ion-icon>
+            </div>
+
+
+            <div class="abs-icon abs-icon-3">
+                <ion-icon name="flag-outline"></ion-icon>
+            </div>
+
+            <div class="elem elem-3">
+                <ion-icon name="trophy"></ion-icon>
+              </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Student</p>
+
+            <p class="section-text">
+                I have a diverse range of interests and talents, including a love for art, an enthusiasm for Capture The Flag (CTF) challenges, and a deep appreciation for the restorative power of sleep. Additionally, you can find my art account on Instagram with the username @deyjapoo.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            I am proud to showcase some of my most stunning works
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/artwork.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Art</p>
+
+                  <h3 class="h3 card-title">Artwork</h3>
+
+                </div>
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/fanart.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Art</p>
+
+                  <h3 class="h3 card-title">Fanart</h3>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/feed-ig.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Design</p>
+
+                  <h3 class="h3 card-title">Feed Instagram</h3>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I continuously enhance my skill set</h2>
+
+          <p class="section-text">
+            Here's a detailed breakdown
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CTF</h3>
+
+                <data class="skills-data" value="20">20%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 20%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 40%">
+                <h3 class="skills-title">Ibispaint</h3>
+
+                <data class="skills-data" value="40">40%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 40%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 50%">
+                <h3 class="skills-title">Drawing</h3>
+
+                <data class="skills-data" value="50">50%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 50%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 30%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="30">30%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 30%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="wrapper" style="width: 40%">
+                  <h3 class="skills-title">Pump It Up</h3>
+  
+                  <data class="skills-data" value="40">40%</data>
+                </div>
+  
+                <div class="skills-progress-box">
+                  <div class="skills-progress" style="width: 40%"></div>
+                </div>
+              </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Sleep Anywhere</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
